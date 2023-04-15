@@ -65,8 +65,8 @@
 				6805FD9B29E9615C00AACF2A /* Model */,
 				6805FD8429E9522F00AACF2A /* AppDelegate.swift */,
 				6805FD8629E9522F00AACF2A /* SceneDelegate.swift */,
-				6805FD8829E9522F00AACF2A /* DestiniViewController.swift */,
-				6805FD8A29E9522F00AACF2A /* Main.storyboard */,
+				6805FDA029EAF01700AACF2A /* Controller */,
+				6805FDA129EAF04400AACF2A /* View */,
 				6805FD8D29E9523200AACF2A /* Assets.xcassets */,
 				6805FD8F29E9523200AACF2A /* LaunchScreen.storyboard */,
 				6805FD9229E9523200AACF2A /* Info.plist */,
@@ -81,6 +81,22 @@
 				6805FD9E29E9628F00AACF2A /* Story.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6805FDA029EAF01700AACF2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6805FD8829E9522F00AACF2A /* DestiniViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6805FDA129EAF04400AACF2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6805FD8A29E9522F00AACF2A /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
