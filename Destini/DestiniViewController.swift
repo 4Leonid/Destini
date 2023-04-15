@@ -21,7 +21,7 @@ class DestiniViewController: UIViewController {
   private lazy var stackView: UIStackView = {
     let element = UIStackView()
     element.axis = .vertical
-    element.spacing = 10
+    element.spacing = 15
     return element
   }()
   
