@@ -27,7 +27,7 @@ class DestiniViewController: UIViewController {
   
   private lazy var storyLabel: UILabel = {
     let element = UILabel()
-    element.text = "You see a fork in the road"
+    element.text = "Story Text"
     element.textAlignment = .center
     element.textColor = .white
     element.font = UIFont.systemFont(ofSize: 30, weight: .medium)
@@ -72,19 +72,17 @@ class DestiniViewController: UIViewController {
     storyBrain.getNextStory(userChoice: title)
     updateUI()
   }
-  
+}
+
+//  MARK: -  Private Methods
+extension DestiniViewController {
   private func updateUI() {
     storyLabel.text = storyBrain.getStoryText()
     roseButton.setTitle(storyBrain.getRoseTitle(), for: .normal)
     purpleButton.setTitle(storyBrain.getPurpleTitle(), for: .normal)
     
   }
-
-
-}
-
-//  MARK: -  Private Methods
-extension DestiniViewController {
+  
   private func setViews() {
     view.addSubview(backgroundImage)
     view.addSubview(stackView)
